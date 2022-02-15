@@ -1,0 +1,31 @@
+{
+  "name": "client-react-tailwind",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://github.com/sandor29/client-react-tailwind",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.3",
+    "@heroicons/react": "^1.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.2",
+    "gh-pages": "^3.2.3",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22",
+    "vite": "^2.8.0"
+  },
+  "keywords": [],
+  "author": "Sandor Escobar Ruiz",
+  "license": "ISC"
+}
